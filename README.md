@@ -12,6 +12,11 @@ Python 3.8 or later with all [requirements.txt](https://github.com/lorisky1214/S
 $ pip install -r requirements.txt
 ```
 
+## Usage
 
+To start the training of SNMH, you can go into the ./SNMH and then you can use the following command to run our model:
 
-## Tutorials
+```python
+python start.py acm --gpu=0
+```
+
